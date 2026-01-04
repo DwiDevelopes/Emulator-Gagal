@@ -1,0 +1,36 @@
+name: emuflash
+description: SWF Flash Player
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  file_picker: ^10.3.8
+  webview_flutter: ^4.9.1
+  path_provider: ^2.1.1
+  path: ^1.9.0
+  share_plus: 12.0.1
+  webview_flutter_android: 4.10.11
+  webview_flutter_wkwebview: ^3.5.0
+  http: ^1.6.0
+  flutter_tts: ^4.0.0
+  image_picker: ^1.2.1
+  image: ^4.7.2
+  shared_preferences: ^2.5.4
+  permission_handler: ^12.0.1
+  syncfusion_flutter_charts: ^23.1.40
+  flutter_svg: ^1.1.6
+  lottie: 3.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
